@@ -1,15 +1,20 @@
 # Python BMI Calculator Coding Challenge
 
 #### How to run program in local environment (steps):
-1. Navigate to the project directory
+1. Navigate to the project directory for tests
 ```
-../Beyond_information_technology
+../Beyond_information_technology/test
 ```
-2. Run the following command in terminal to run all the tests (```-v``` for verbose output)
+2. Navigate to the project directory for running either version of the program
+```
+../Beyond_information_technology/src
+```
+
+3. Run the following command in terminal to run all the tests (```-v``` for verbose output)
 ```
 pytest -v
 ```
-3. To generate the output ```csv``` file, run the following command in terminal
+4. To generate the output (using either versions of the program) ```csv``` file, run the following command in terminal
 ```
 python main_oops.py
 ```
