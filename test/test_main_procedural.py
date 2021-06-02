@@ -1,6 +1,6 @@
 import json
 
-import main_procedural
+from src import main_procedural
 
 
 def test_json_to_object_conversion():

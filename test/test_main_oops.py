@@ -1,6 +1,6 @@
 import json
 
-import main_oops
+from src import main_oops
 
 
 def test_json_to_object_conversion():

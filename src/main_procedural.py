@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     people_health_dictionary_list = calculate_and_create_final_data(people_dicts)
 
-    with open('BMI data (P).csv', 'w') as outfile:
+    with open('../BMI data (P).csv', 'w') as outfile:
         writer = DictWriter(outfile,
                             ('Gender', 'Height (in cm)', 'Weight (in kg)', 'BMI', 'BMI Category', 'Health risk'))
         writer.writeheader()
